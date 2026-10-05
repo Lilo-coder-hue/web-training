@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>الأسبوع السادس - JavaScript المتقدم</title>
+</head>
+
+<body>
+
+    <h1 id="title">JavaScript المتقدم</h1>
+
+    <p id="message">مرحباً بك في الأسبوع السادس</p>
+
+    <button onclick="changeText()">اضغط هنا</button>
+<hr>
+
+<h2>نموذج بيانات المستخدم</h2>
+
+<form onsubmit="validateForm(event)">
+    <label>الاسم:</label>
+    <input type="text" id="name">
+
+    <br><br>
+
+    <label>البريد الإلكتروني:</label>
+    <input type="email" id="email">
+
+    <br><br>
+
+    <button type="submit">إرسال</button>
+</form>
+
+<p id="result"></p>
+    <script src="week6.js"></script>
+
+</body>
+</html>
